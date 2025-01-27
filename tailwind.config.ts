@@ -1,3 +1,6 @@
+// This is configuration file of tailwind
+// we can add more tailwind setup
+
 import type { Config } from "tailwindcss";
 
 export default {

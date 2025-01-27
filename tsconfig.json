@@ -1,3 +1,5 @@
+// This is configuration file TypeScript
+// This define what should be typed check, igonred and rules to follow
 {
   "compilerOptions": {
     "target": "ES2017",

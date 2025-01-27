@@ -1,0 +1,23 @@
+====>   1. Setup    <====
+
+    1. Install Next: npx create-next-app@latest <project-name>
+    2. Allow: typescript, tailwind, eslint, app-router
+
+    // Package.json
+        - Since we are using latest react-19, so to make sure that every Package use same react Package
+            add below object in your package.json
+
+                "packageManager": "npm@10.5.2",
+                "overrides": {
+                    "react": "$react",
+                    "react-dom": "$react-dom"
+                },
+
+
+====>   2. Auth.Js    <====
+
+    -   follow steps in below link and skip the optional
+        https://authjs.dev/getting-started/installation?framework=next-js
+    
+    -   we are using github oauth, follow below steps
+        https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/creating-an-oauth-app
