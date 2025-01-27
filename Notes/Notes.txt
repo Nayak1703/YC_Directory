@@ -21,3 +21,9 @@
     
     -   we are using github oauth, follow below steps
         https://docs.github.com/en/apps/oauth-apps/building-oauth-apps/creating-an-oauth-app
+
+        since we have not deployed, later update it.
+        Homepage URL: https://localhost:3000 
+        Authorization callback URL: https://localhost:3000/api/auth/callback/github
+
+    -   Then you will get Client Id, add in .env.local 
